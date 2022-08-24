@@ -33,7 +33,7 @@ body{
     padding: 10px;
     border: none;
     width: 100%;
-    height: 50px;
+    height: 45px;
 }
 .menu:hover{
     background: #eee;
@@ -56,7 +56,7 @@ body{
     padding: 20px;
 }
 .title-lv0{
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 600;
     padding-left: 20px;
     padding-top: 20px;
