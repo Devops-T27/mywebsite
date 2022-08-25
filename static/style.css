@@ -105,3 +105,8 @@ text-align: left;
     color: #323f4a;
     text-align: center;
 }
+.owner{
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
