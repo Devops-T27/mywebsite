@@ -21,7 +21,7 @@ body{
     height: 200px;
     border-radius: 50%;
     margin-left: 20%;
-    border: 5px solid rgb(255, 247, 0);
+    border: 5px solid #FFD700;
 }
 .name{
     text-align: center;
@@ -96,10 +96,9 @@ text-align: left;
 .pic:hover{
     cursor: zoom-in;
 }
-
 .foot{
     left: 10%;
-    bottom: 0;
+    padding-top: 25%;
     width: 100%;
     height: 100px;
     color: #323f4a;
@@ -109,4 +108,19 @@ text-align: left;
     font-weight: 600;
     text-decoration: underline;
     cursor: pointer;
+}
+.btn-custom{
+    background: #323f4a;
+    color: #eee;
+}
+.blc{
+    text-align: center;
+}
+.icon-srv{
+    cursor: pointer;
+    font-size: 100px;
+}
+.icon-srv:hover{
+    color:gray;
+    transition: 3s;
 }
