@@ -8,9 +8,10 @@ body{
 .left-side{
     background: #323f4a;
     color: #eee;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .right-side{
- background: white;
+    transition: 1s;
 }
 .title-lv1{
     text-align: center;
@@ -22,6 +23,8 @@ body{
     border-radius: 50%;
     margin-left: 20%;
     border: 5px solid #FFD700;
+    transform: rotate(0);
+    transition: 2s;
 }
 .name{
     text-align: center;
@@ -61,6 +64,12 @@ body{
     padding-left: 20px;
     padding-top: 20px;
 }
+.title-lv0:hover
+{
+    letter-spacing: 5px;
+    transition: 2s;
+    cursor: pointer;
+}
 .hide{
     display: none;
 }
@@ -95,6 +104,9 @@ text-align: left;
   
 .pic:hover{
     cursor: zoom-in;
+    border: 5px solid white;
+    transform: rotate(3.142rad);
+    transition: 2s;
 }
 .foot{
     left: 10%;
@@ -124,3 +136,9 @@ text-align: left;
     color:gray;
     transition: 3s;
 }
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 960px) {
+    .menu{
+        font-size: 18px;
+    }
+  }
